@@ -1,0 +1,35 @@
+@import "variables";
+
+.login {
+    &-container  {
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    &-background {
+    background: linear-gradient(308deg, #00aa9e, $color-primary);
+    background-size: 400% 400%;
+
+    -webkit-animation: Green 34s ease infinite;
+    -moz-animation: Green 34s ease infinite;
+    animation: Green 34s ease infinite;
+
+        @-webkit-keyframes Green {
+            0%{background-position:1% 0%}
+            50%{background-position:99% 100%}
+            100%{background-position:1% 0%}
+        }
+        @-moz-keyframes Green {
+            0%{background-position:1% 0%}
+            50%{background-position:99% 100%}
+            100%{background-position:1% 0%}
+        }
+        @keyframes Green {
+            0%{background-position:1% 0%}
+            50%{background-position:99% 100%}
+            100%{background-position:1% 0%}
+        }
+    }
+}

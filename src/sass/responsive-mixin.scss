@@ -1,0 +1,7 @@
+@mixin mQuery($breakpoint){
+  @if $breakpoint == phone {
+    @media (max-width: 600px) {
+      @content
+    }
+  }
+}
