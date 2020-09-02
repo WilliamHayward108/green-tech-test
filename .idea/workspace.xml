@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="523abe0c-bb5e-4aac-b2e8-8d0c92b0c2d4" name="Default Changelist" comment="" />
+    <list default="true" id="523abe0c-bb5e-4aac-b2e8-8d0c92b0c2d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/font/GothamLight.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/chat.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/checkbox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/login-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/login-form.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/login-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/login-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/responsive-mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/responsive-mixin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/variables.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +35,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gdxsa3UjkW7RnmBU9JoJ6cDnfw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -37,6 +56,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\willh\Dev\react projects\green-login\src\font" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\willh\Dev\react projects\green-login\src\font" />
     </key>
   </component>
@@ -61,25 +83,45 @@
       <workItem from="1598484914714" duration="1800000" />
       <workItem from="1598486732030" duration="357000" />
       <workItem from="1598520664324" duration="637000" />
-      <workItem from="1598521363201" duration="237000" />
+      <workItem from="1598521363201" duration="836000" />
+      <workItem from="1599034960207" duration="1314000" />
+      <workItem from="1599036283760" duration="675000" />
+      <workItem from="1599036976945" duration="1794000" />
+      <workItem from="1599038783347" duration="1796000" />
+      <workItem from="1599040609379" duration="1787000" />
+      <workItem from="1599042479443" duration="856000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1013" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598461965901">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1013" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1598461965901" />
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598484966225">
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1599043541433">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.2560.1400/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1599043541433" />
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599042634918">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1598484966225" />
-    <state x="976" y="432" width="607" height="536" key="find.popup" timestamp="1598521534146">
+    <state x="92" y="92" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1599042634918" />
+    <state x="976" y="432" width="607" height="536" key="find.popup" timestamp="1599042706107">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="432" width="607" height="536" key="find.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1598521534146" />
+    <state x="976" y="432" width="607" height="536" key="find.popup/0.0.2560.1400/-1920.0.1920.1040@0.0.2560.1400" timestamp="1599042706107" />
   </component>
 </project>

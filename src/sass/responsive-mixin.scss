@@ -4,4 +4,11 @@
       @content
     }
   }
+  @if $breakpoint == phone {
+    @media (max-width: 1000px) {
+      @content
+    }
+  }
+
+
 }

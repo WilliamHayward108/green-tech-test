@@ -9,29 +9,23 @@ const LoginForm = () => {
         event.preventDefault();
     };
 
-    const showCheckbox = () => {
-        if(credential){
-            return (
-                <div className="login-checkbox">
-                    <input type="checkbox" id="rememberMe"  checked={rememberMe} onChange={(e) =>setRememberMe(!rememberMe)} />
-                    <label htmlFor="rememberMe">{rememberMe ? 'This device will be saved' : 'Remember this device?'}</label>
-                </div>
-            )
-        }
-    };
 
     return (
         <div className="login">
             <img alt="logo" src={logo} className="login-logo" />
             <div>
-                <h1 className="login-h1">Hello and welcome to Green.</h1>
-                <h2 className="login-h2">Enter your email/mobile number below</h2>
+                <h1 className="login-h1">Example login screen</h1>
+                <h2 className="login-h2 light">Getting started with Green.</h2>
             </div>
             <div>
                 <form onSubmit={handleSubmit} className="login-form-input-group">
-                    <input className="login-input" autoFocus value={credential} type="text" placeholder="Account email/mobile number" required onChange={(e) => setCredential(e.target.value)}/>
-                    {showCheckbox()}
-                    <button className="btn btn-login">
+                    <label className="login-email-label light">Email Address</label>
+                    <input className="login-input" id="loginInput"  value={credential} type="text"  required onChange={(e) => setCredential(e.target.value)}/>
+                    <div className="login-checkbox">
+                        <input type="checkbox" id="rememberMe"  checked={rememberMe} onChange={(e) =>setRememberMe(!rememberMe)} />
+                        <label htmlFor='rememberMe'>Remember this device</label>
+                    </div>
+                    <button className="btn">
                         Sign In
                     </button>
                 </form>

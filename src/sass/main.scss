@@ -1,20 +1,24 @@
 @import "button";
 @import "login-form";
 @import "login-page";
-@import "chat";
 @import "checkbox";
 @import "responsive-mixin";
-@import "variables";
 
 
 @font-face {
-  font-family: 'Gotham';
+  font-family: 'Gotham-med';
   src: url('../font/GothamMedium.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Gotham-light';
+  src: url('../font/GothamLight.ttf') format('truetype');
+}
+
+
 html {
     font-size: 62.5%;
-    font-family: Gotham;
+    font-family: Gotham-med;
 
     @include mQuery(phone) {
        font-size: 46%;
